@@ -1,0 +1,21 @@
+{
+  "short_name": "DashMetrics",
+  "name": "DashMetrics - Social Media Analytics Platform",
+  "description": "Track and analyze your social media performance with DashMetrics.",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "1366x768"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#007bff",
+  "background_color": "#ffffff"
+}

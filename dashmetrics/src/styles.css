@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Login/Signup Pages */
+.login, .signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.login button, .signup button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login button:hover, .signup button:hover {
+  background-color: #0056b3;
+}
+
+.signup input {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Dashboard */
+.dashboard {
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Saved Content */
+.saved-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.saved-content input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.saved-content button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.saved-content button:hover {
+  background-color: #218838;
+}
+
+.saved-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.saved-content li {
+  margin: 10px 0;
+}
+
+.saved-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.saved-content a:hover {
+  text-decoration: underline;
+}
